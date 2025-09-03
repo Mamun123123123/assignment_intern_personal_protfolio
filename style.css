@@ -43,7 +43,7 @@
        padding: 20px;
 }
 .section{
-    background: #f78b8b;
+    background: #a7a5a5;
     display: flex;
     padding: 27px;
     gap: 100px;
@@ -74,7 +74,7 @@
     padding-right: 10px;
 }
 .footer{
-    background: #8f8f8f;
+    background: #7c819d;
     padding: 30px;
     display: flex;
     justify-content: space-between;
