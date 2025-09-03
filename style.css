@@ -18,13 +18,13 @@
 .navbar ul{
      list-style: none;
 }
-.nav-center{
+.center{
     display: flex;
     gap: 30px;
     padding-top: 5px;
     
 }
-.active:hover{
+.home:hover{
     background: #dedc74;
     padding: 20px;
 }
@@ -33,11 +33,11 @@
     padding: 20px;
 }
 
-.nav-right{
+.right{
     padding-top: 5px;
     font-weight: bold;
 }
-.btn-contact:hover{
+.contact:hover{
        color: rgb(255, 2, 133);
        background: #f8ff2a;
        padding: 20px;
@@ -47,6 +47,7 @@
     display: flex;
     padding: 27px;
     gap: 100px;
+    height: 900px;
 }
 .left{
     padding-left: 10px;
@@ -70,7 +71,7 @@
     padding: 10px;
 }
 .right{
-    padding-top: 100px;
+    padding-top: 10px;
     padding-right: 10px;
 }
 .footer{
@@ -83,45 +84,4 @@
 .f{
     
     font-weight: bold;
-}
-@media(max-width: 768px){
-    .navbar{
-        flex-direction: column;
-        gap: 15px;
-    }
-    .nav-center{
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-    .section{
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-    .left{
-        padding: 20px 0;
-    }
-    .right{
-        padding: 0;
-    }
-    .footer{
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-@media(max-width: 480px){
-    .logo{
-        font-size: 18px;
-    }
-    .left{
-        font-size: medium;
-    }
-    .nav-center a{
-        font-size: 14px;
-    }
-    .btn-contact{
-        font-size: 14px;
-        padding: 8px 14px;
-    }
 }
