@@ -74,3 +74,11 @@ input{
     
     font-weight: bold;
 }
+.button{
+    background: #a08989;
+    padding: 15px;
+}
+.button:hover{
+    background: #000;
+    color: white;
+}
