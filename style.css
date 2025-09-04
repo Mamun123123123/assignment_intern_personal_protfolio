@@ -70,9 +70,10 @@
     font-style: oblique;
     padding: 10px;
 }
-.right{
+.rights img{
     padding-top: 10px;
     padding-right: 10px;
+    display: flex;
 }
 .footer{
     background: #7c819d;
@@ -85,3 +86,11 @@
     
     font-weight: bold;
 }
+ @media(max-width:780px){
+     .rights img{
+        max-width:00%;
+        
+        display:block;
+        
+    }
+ }

@@ -82,3 +82,8 @@ input{
     background: #000;
     color: white;
 }
+@media(max-width:480px){
+    img{
+        width:100%
+    }    
+}
