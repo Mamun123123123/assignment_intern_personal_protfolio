@@ -75,7 +75,7 @@
     padding-right: 10px;
     display: flex;
     width: 600px;
-    height: 300px;
+    height: 500px;
 }
 .footer{
     background: #7c819d;
@@ -89,10 +89,14 @@
     font-weight: bold;
 }
  @media(max-width:780px){
-     .rights img{
-        max-width:00%;
+     .section{
+        display: flex;
+        flex-direction: column;
         
-        display:block;
-        
+    }
+    .rights img{
+        width: 300px;
+        height: 400px;
+        padding: 20px;
     }
  }
