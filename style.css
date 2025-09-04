@@ -74,6 +74,8 @@
     padding-top: 10px;
     padding-right: 10px;
     display: flex;
+    width: 600px;
+    height: 300px;
 }
 .footer{
     background: #7c819d;
