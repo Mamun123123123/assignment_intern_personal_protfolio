@@ -49,32 +49,37 @@ h1{
     padding: 20px;
 }
 .container{
-    background:rgb(167, 180, 184);
-    height: 900px;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #b4dcea;
     display: flex;
-    gap: 200px;
-
+    justify-content: space-between;
+    height: 900px;
 }
-h2{
-    text-align: center;
-}
-
 .item{
-    padding: 100px;
-}
-label{
-    font-weight: bold;
-    padding: 20px;
-}
-.img{
-    padding-top: 100px;
-    width: 400px;
-    padding-left: 90px;
-
+    padding-left: 50px;
+    font-size: 40px;
+    margin: 40px;
+    padding-top: 30px;
 }
 input{
     padding: 15px;
+    width: 400px;
+    background-color: #550e78;
+    color: rgb(255, 255, 255);
+}
+#massage{
+    width: 400px;
+    padding: 15px;
+    background-color: #410e78;
+}
+.button{
+    
+    width: 150px;
+}
+.button:hover{
+    background: #000;
+}
+.pic{
+    padding: 60px;
 }
 .footer{
     background: #8f8f8f;
@@ -95,11 +100,38 @@ input{
     background: #000;
     color: white;
 }
-@media (max-width:780px){
+@media (max-width:1127px){
     .container{
         flex-direction: column;
         
     }
+    .pic{
+        margin: 0;
+        padding: 40px;
+        width: 30px;
+    }
+    
+    input{
+    padding: 15px;
+    width: 400px;
+    background-color: #550e78;
+    color: rgb(255, 255, 255);
+}
+#massage{
+    width: 400px;
+    padding: 15px;
+    background-color: #410e78;
+}
+    
+   .button:hover{
+    background: #000;
+}
+.footer{
+    padding: 20px;
+    font-size: 30px;
+    gap: 20px;
+}
     
 }
+
 
