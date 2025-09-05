@@ -53,12 +53,18 @@ h1{
     display: flex;
     justify-content: space-between;
     height: 900px;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
 }
 .item{
     padding-left: 50px;
     font-size: 40px;
     margin: 40px;
     padding-top: 30px;
+}
+.item, .pic{
+    flex:1 1 300px;
 }
 input{
     padding: 15px;
@@ -103,22 +109,24 @@ input{
 @media (max-width:1127px){
     .container{
         flex-direction: column;
+        text-align: center;
+        align-items: center;
         
     }
-    .pic{
+    .item , .pic{
         margin: 0;
-        padding: 40px;
-        width: 30px;
+        padding: 10px;
+        
     }
     
     input{
     padding: 15px;
-    width: 400px;
+    width: 300px;
     background-color: #550e78;
     color: rgb(255, 255, 255);
 }
 #massage{
-    width: 400px;
+    width: 300px;
     padding: 15px;
     background-color: #410e78;
 }
